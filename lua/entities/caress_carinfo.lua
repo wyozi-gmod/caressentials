@@ -27,7 +27,7 @@ function ENT:GetVehData()
 			self.vehData = data
 			return data
 		else
-			print("ERROR! No vehdata found for ", par:GetModel())
+			--print("ERROR! No vehdata found for ", par:GetModel())
 		end
 	end
 end
